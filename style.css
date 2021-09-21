@@ -42,7 +42,7 @@ nav {
   margin: 8px;
   padding: 10px;
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1vw;
   text-decoration: none;
   transition: all 0.3s ease-out;
 }
@@ -56,12 +56,6 @@ nav {
   height: 100%;
   text-align: center;
 }
-.first {
-  margin-top: 10px;
-}
-.default {
-  margin-top: 10px;
-}
 .col-full {
   width: 1044px;
 }
@@ -72,26 +66,36 @@ nav {
   margin-top: 150px;
   display: flex;
   flex-flow: row wrap;
+  align-items: stretch;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  font-size: 12px;
 }
 .ccard {
+  align-self: auto;
   margin: 1rem auto;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
-  height: 600px;
-  max-width: 400px;
+  max-height: 800px;
+  max-width: 500px;
   border-style: solid;
+  font-size: 1vw;
   /* background-color: #ffffff44; */
   background-color: #010011;
   border-radius: 10px;
 }
-.ccontent {
+.cimage img{
+  height: 10vw;
+  width: 10vw;
+}
+.ccontent{
   width: 80%;
   margin: auto;
+}
+.ccontent img {
+  height: 4.5vw;
+  width: 4.5vw;
 }
 .cdescription {
   width: 90%;
@@ -142,13 +146,13 @@ nav {
 }
 
 .jButton {
-  height: 40px;
-  width: 120px;
+  height: 2.5vw;
+  width: 8vw;
   font-family: "Cairo", sans-serif;
-  margin-bottom: 10px;
+  margin-bottom: 2vw;
   background-color: #ffde3a;
   color: black;
   border-radius: 10px;
   border-color: #ffde3a;
-  font-size: 15px;
+  font-size: 1vw;
 }
