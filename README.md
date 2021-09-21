@@ -1,4 +1,6 @@
 # One-Page-Website
-Course registration website. It's more of a template for the time being.
-The website is in Arabic Language 
-HTML/CSS and jQuery
+#### The barebones of a course registration website.
+#### The website is in Arabic Language 
+#### I have used plain HTML + CSS and a little use of jQuery library for the navigation bar.
+## 
+#### Logo designs are all mine.
