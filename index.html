@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Almarai?subset=arabic">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </head>
+    <body id="main">
+        <nav>
+            <div class="container">
+                
+                  <ul>
+                    <img src="assets/LOGO3.png" style="height: 60px; margin-top: -20px; float: right;";>
+                    <li><a id="sec-1" href="#main">الصفحة الرئيسية</a></li>
+                    <li><a id="sec-2" href="#about">نبذة عنا</a></li>
+                    <li><a id="sec-3" href="#contactus">تواصل معنا</a></li>
+                    <li><a id="sec-4" href="#courses">الدورات</a></li>
+                  </ul>
+            </div>
+         </nav>
+        <br>
+        <div class="maincontainer">
+            <div class="default first item">
+                <p>
+                    "شعار" هي منصة الكترونية موحدة تتيح للمتدرب استعراض الدورات التدريبية في مجال البرمجة تحت سقف واحد 
+                </p>
+            </div>
+            <div id="about" class = "item">
+                <h2>نبذة عنا</h2>
+                <p>
+                    نوفر لك محتوى متنوع ومتكامل يساعدك في تعلم البرمجة بكل سهولة ومتعة
+                </p>
+            </div>
+            <div id="contactus" class = "item">
+                <h2>تواصل معنا</h2>
+                <br>
+                <form style="text-align: center">
+                    <label for="name">الاسم</label>
+                    <br>
+                    <input type="text" id="name">
+                    <br><br>
+                    <label for="email">البريد الالكتروني</label>
+                    <br>
+                    <input type="text" id="email">
+                    <br><br>
+                    <label for="subject">الموضوع</label>
+                    <br>
+                    <input type="text" id="subject">
+                    <br><br>
+                    <label for="issue">نوع المشكلة</label>
+                    <br>
+                    <select id="issue" name="issue">
+                        <option value="Joining">الانضمام</option>
+                        <option value="Website">الموفع</option>
+                        <option value="Other">أخرى</option>
+                    </select>
+                    <br><br>
+                    <input class="jButton" type="submit" value="إرسال">
+                </form>
+            </div>
+            <div id="courses" class="item">
+                <h2>الدورات</h2>
+
+                <div class="ccards">
+
+                    <div class="ccard">
+                        <div class="cimage">
+                            <img src="https://assets.safcsp.cloud/822cb565-21e0-498b-b160-4bb19c98d09a/asset/9c1c52f0-c28a-404c-912d-c169b5a80990.png" height="150" width="150" alt="course image">
+                        </div>
+                        <div class="ccontent">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" height="60px" width="60px" alt="JS logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" height="60px" width="60px" alt="CSS logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/1200px-Javascript_badge.svg.png" height="60px" width="60px" alt="html logo">
+                        </div>
+                        
+                        <div class="cmore">
+                            <div class="cdescription">
+                                <h2>دورة Full-Stack JavaScript</h2>
+                                <p>
+                                    سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير وبناء تطبيقات ويب تفاعلية متكاملة، تبدأ رحلتك بتعلم أساسيات البرمجة بلغة JavaScript ثم ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، ثم ستنتقل لتعلم أساسيات تطوير وبناء خلفيات التطبيقات (Back-End) وقواعد البيانات (Database)، كما ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git و GitHub، وأخيرًا ستتعلم طريقة استضافة ورفع المشاريع على منصة Heroku.
+                                </p>
+                            </div>
+                        <input class="jButton" type="submit" value="انضمام">
+                        </div>
+                    </div>
+
+                    <div class="ccard">
+                        <div class="cimage">
+                            <img src="https://assets.safcsp.cloud/822cb565-21e0-498b-b160-4bb19c98d09a/asset/9c1c52f0-c28a-404c-912d-c169b5a80990.png" height="150" width="150" alt="course image">
+                        </div>
+                        <div class="ccontent">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Android_Studio_Icon_%282014-2019%29.svg/1200px-Android_Studio_Icon_%282014-2019%29.svg.png" height="60px" width="60px" alt="Android Studio logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin_Icon.png/1200px-Kotlin_Icon.png" height="60px" width="60px" alt="Kotlin logo">
+                        </div>
+                        
+                        <div class="cmore">
+                            <div class="cdescription">
+                                <h2>تطوير تطبيقات Android</h2>
+                                <p>
+                                    سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير تطبيقات Android، حيث تبدأ رحلتك بتعلّم أساسيات البرمجة بلغة Kotlin مرورًا بمجموعة من المفاهيم التي تحتاجها في تطوير التطبيقات باستخدام Android Studio.
+                                </p>
+                            </div>
+                        <input class="jButton" type="submit" value="انضمام">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
