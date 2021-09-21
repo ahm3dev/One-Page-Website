@@ -57,16 +57,16 @@ nav {
   text-align: center;
 }
 .first {
-  margin-top: 100px;
+  margin-top: 10px;
 }
 .default {
-  margin-top: 64px;
+  margin-top: 10px;
 }
 .col-full {
   width: 1044px;
 }
 .maincontainer {
-  margin: 200px;
+  margin: 100px;
 }
 .ccards {
   margin-top: 150px;
@@ -83,7 +83,7 @@ nav {
   flex-flow: column nowrap;
   justify-content: space-around;
   height: 600px;
-  max-width: 300px;
+  max-width: 400px;
   border-style: solid;
   /* background-color: #ffffff44; */
   background-color: #010011;
@@ -116,7 +116,7 @@ nav {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ffde3a;
+  background: #0f0052;
   opacity: 0.9;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
