@@ -42,7 +42,6 @@ nav {
   margin: 8px;
   padding: 10px;
   color: #fff;
-  font-size: 1vw;
   text-decoration: none;
   transition: all 0.3s ease-out;
 }
@@ -77,25 +76,28 @@ nav {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
-  max-height: 800px;
-  max-width: 500px;
+  max-height: 600px;
+  max-width: 400px;
   border-style: solid;
-  font-size: 1vw;
   /* background-color: #ffffff44; */
   background-color: #010011;
   border-radius: 10px;
 }
+.cimage{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
 .cimage img{
-  height: 10vw;
-  width: 10vw;
+  width: 150px;
+  height: 150px;
 }
 .ccontent{
   width: 80%;
   margin: auto;
 }
 .ccontent img {
-  height: 4.5vw;
-  width: 4.5vw;
+  width: 3vw;
+  height: 3vw;
 }
 .cdescription {
   width: 90%;
@@ -154,5 +156,4 @@ nav {
   color: black;
   border-radius: 10px;
   border-color: #ffde3a;
-  font-size: 1vw;
 }
